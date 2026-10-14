@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+.DS_Store
+
+# 第三方猎聘 CLI 源码（未声明许可证，不随本项目再分发）
+vendor/

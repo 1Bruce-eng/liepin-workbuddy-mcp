@@ -1,0 +1,22 @@
+{
+  "name": "猎聘求职助手",
+  "name_zh": "猎聘求职助手",
+  "name_en": "Liepin Job Assistant",
+  "description": "Connect WorkBuddy to your Liepin account for job search, resume review and confirmed applications.",
+  "description_zh": "通过猎聘官方本地 CLI 搜索职位、查看简历，并在你明确确认后更新求职期望或投递。",
+  "description_en": "Search Liepin jobs, review your resume, and update expectations or apply only after your explicit confirmation.",
+  "source": "liepin-job-assistant",
+  "type": "mcp",
+  "version": "0.1.0",
+  "minWorkbuddyVersion": "4.24.0",
+  "examples_zh": [
+    "在猎聘查深圳的产品经理岗位，薪资 25k 到 35k",
+    "读取我的猎聘简历，帮我总结优势和缺项",
+    "先搜索并比较匹配岗位，投递前让我确认"
+  ],
+  "examples_en": [
+    "Search Liepin for product manager jobs in Shenzhen, paying 25k to 35k",
+    "Read my Liepin resume and summarize strengths and gaps",
+    "Compare matching jobs and ask before applying"
+  ]
+}

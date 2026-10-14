@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "liepin-workbuddy-mcp"
+version = "0.1.0"
+description = "WorkBuddy MCP adapter for the official Liepin CLI"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.27,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+liepin-workbuddy-mcp = "liepin_workbuddy_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

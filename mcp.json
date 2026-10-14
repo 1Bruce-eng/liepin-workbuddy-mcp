@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "liepin-workbuddy": {
+      "type": "stdio",
+      "command": "liepin-workbuddy-mcp",
+      "timeout": 30000
+    }
+  }
+}
